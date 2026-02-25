@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comidas</title>
+</head>
+<body>
+
+    <script>
+        pedido = prompt("O que você gostaria de comer? (Pizza/ Hamburguer/ Sushi/ Salada)").toLowerCase()
+
+        switch(pedido){
+            case "pizza":
+                document.write("Você escolheu Pizza.");
+                break;
+            case "hamburguer":
+                document.write("Você escolheu Hamburguer.");
+                break;
+            case "sushi":
+                document.write("Você escolheu Sushi.");
+                break;
+            case "salada":
+                document.write("Você escolheu Salada.");
+                break;
+            default:
+                document.write("Comida não registrada.");
+                break;
+        }
+    </script>
+    
+</body>
+</html>
